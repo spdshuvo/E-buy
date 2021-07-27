@@ -26,7 +26,8 @@ $(function () {
     })
     $(".testimonial_item_container").slick({
         slidesToShow: 2,
-        autoplay: true,
-        autoplaySpeed: 2000
+        slidesToScroll: 1,
+        prevArrow:'<i class="fas fa-chevron-left testimonial_arrow left"></i>' ,
+        nextArrow: '<i class="fas fa-chevron-right testimonial_arrow right"></i>',
     })
 })
