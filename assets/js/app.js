@@ -30,4 +30,13 @@ $(function () {
         prevArrow:'<i class="fas fa-chevron-left testimonial_arrow left"></i>' ,
         nextArrow: '<i class="fas fa-chevron-right testimonial_arrow right"></i>',
     })
+    
+  // Coutdown js
+  $('.count_down').countdown('2021/10/20', function(event) {
+    var $this = $(this).html(event.strftime(''
+      + '<div class="col-3"><div class="count_down_item"><span>%d</span><span>Days</span></div></div>'
+      + '<div class="col-3"><div class="count_down_item"><span>%H</span><span>Hours</span></div></div>'
+      + '<div class="col-3"><div class="count_down_item"><span>%M</span><span>Mins</span></div></div>'
+      + '<div class="col-3"><div class="count_down_item"><span>%S</span><span>Sec</span></div></div>'));
+  });
 })
