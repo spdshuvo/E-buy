@@ -57,7 +57,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="right_top_header text-end">
+                        <div class="right_top_header d-none d-lg-block text-end">
                             <ul>
                                 <li><a href="#">
                                         <i class="fas fa-heart"></i>
@@ -76,13 +76,13 @@
                 </div>
             </div>
         </section>
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar navbar-expand-lg py-0 py-lg-2" id="mynav">
             <div class="container">
                 <a href="#" class="navbar-brand">
                     <img src="assets/images/logo.png" alt="">
                 </a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#main_menu">
-                    <span class="navbar-togger-icon"></span>
+                    <i class="fas fa-bars"></i>
                 </button>
                 <div id="main_menu" class="navbar-collapse collapse text-end">
                     <ul class="navbar-nav mx-auto">
@@ -105,7 +105,7 @@
                             <a href="#" class="nav-link">Contact</a>
                         </li>
                     </ul>
-                    <div class="search_cart">
+                    <div class="search_cart d-none d-lg-block">
                         <div class="search_box">
                             <input type="text">
                             <i class="fas fa-search"></i>
@@ -118,6 +118,43 @@
                 </div>
             </div>
         </nav>
+        <div class="mobile_sec d-lg-none">
+            <div class="container">
+                <div class="right_top_header ">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-heart"></i>
+                                wishlist
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-user"></i>
+                                my account
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Login/Register
+                            </a>
+                        </li>
+                        <li class="text-end">
+                            <div class="search_box">
+                                <input type="text">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </li>
+                        <li class="text-end">
+                            <div class="cart_icon ">
+                                <i class="fas fa-shopping-bag"></i>
+                                2 Items
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
     <!--Header Part end-->
     <!--Banner section start-->
@@ -126,8 +163,8 @@
             <div class="banner_slider_container">
                 <div class="slider_item" style="background-image: url(assets/images/banner1.jpg) ">
                     <div class="container h-100">
-                        <div class="row h-100 align-items-center">
-                            <div class="col-md-6 banner_info">
+                        <div class="row h-100  align-items-center">
+                            <div class="col-sm-10 col-md-8 col-lg-6 banner_info">
                                 <h2>2017</h2>
                                 <h4>Trendy Design</h4>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting stry. Lorem Ipsum
@@ -143,8 +180,8 @@
                 </div>
                 <div class="slider_item" style="background-image: url(assets/images/banner2.jpg) ">
                     <div class="container h-100">
-                        <div class="row h-100 align-items-center">
-                            <div class="col-md-6 banner_info">
+                        <div class="row h-100  align-items-center">
+                            <div class="col-sm-10 col-md-8 col-lg-6 banner_info">
                                 <h2>2017</h2>
                                 <h4>Trendy Design</h4>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting stry. Lorem Ipsum
@@ -160,8 +197,8 @@
                 </div>
                 <div class="slider_item" style="background-image: url(assets/images/banner3.jpg) ">
                     <div class="container h-100">
-                        <div class="row h-100 align-items-center">
-                            <div class="col-md-6 banner_info">
+                        <div class="row h-100  align-items-center">
+                            <div class="col-sm-10 col-md-8 col-lg-6 banner_info">
                                 <h2>2017</h2>
                                 <h4>Trendy Design</h4>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting stry. Lorem Ipsum
@@ -177,8 +214,8 @@
                 </div>
                 <div class="slider_item" style="background-image: url(assets/images/banner4.jpg) ">
                     <div class="container h-100">
-                        <div class="row h-100 align-items-center">
-                            <div class="col-md-6 banner_info">
+                        <div class="row h-100  align-items-center">
+                            <div class="col-sm-10 col-md-8 col-lg-6 banner_info">
                                 <h2>2017</h2>
                                 <h4>Trendy Design</h4>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting stry. Lorem Ipsum
@@ -199,22 +236,22 @@
     <!--support section start-->
     <section id="support">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 support_item text-center">
+            <div class="row justify-content-center">
+                <div class="col-sm-8 col-md-4 support_item text-center">
                     <h3>
                         <i class="fas fa-truck"></i>
                         Free shopping
                     </h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
-                <div class="col-md-4 support_item text-center">
+                <div class="col-sm-8 col-md-4 support_item text-center">
                     <h3>
                         <i class="far fa-life-ring"></i>
                         24/7 Support
                     </h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
-                <div class="col-md-4 support_item  text-center">
+                <div class="col-sm-8 col-md-4 support_item  text-center">
                     <h3>
                         <i class="far fa-money-bill-alt"></i>
                         Cashback
@@ -228,8 +265,8 @@
     <!--newest section start-->
     <section id="newest">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 newest_item">
+            <div class="row justify-content-center">
+                <div class="col-sm-10 py-sm-3 col-md-4  newest_item">
                     <div class="newest_thum">
                         <img src="assets/images/newest1.jpg" alt="">
                     </div>
@@ -239,7 +276,7 @@
                         <a href="#">Shop Now</a>
                     </div>
                 </div>
-                <div class="col-md-4 newest_item">
+                <div class="col-sm-10 py-sm-3 col-md-4 newest_item">
                     <div class="newest_thum">
                         <img src="assets/images/newest2.jpg" alt="">
                     </div>
@@ -249,7 +286,7 @@
                         <a href="#">Shop Now</a>
                     </div>
                 </div>
-                <div class="col-md-4 newest_item">
+                <div class="col-sm-10 py-sm-3 col-md-4 newest_item">
                     <div class="newest_thum">
                         <img src="assets/images/newest3.jpg" alt="">
                     </div>
@@ -281,7 +318,8 @@
                     </ul>
                 </div>
                 <div class="row featured_filter_container">
-                    <div class="products_item p-3 filtr-item col-md-3" data-category="all,men,women,children">
+                    <div class="products_item p-3 filtr-item col-sm-6 col-md-4 col-lg-3"
+                        data-category="all,men,women,children">
                         <div class="products_item_thum">
                             <a href="#">
                                 <img src="assets/images/featured1.jpg" alt="">
@@ -308,7 +346,8 @@
                         </div>
 
                     </div>
-                    <div class="products_item p-3 filtr-item col-md-3" data-category="all,men,women,children">
+                    <div class="products_item p-3 filtr-item col-sm-6 col-md-4 col-lg-3"
+                        data-category="all,men,women,children">
                         <div class="products_item_thum">
                             <a href="#">
                                 <img src="assets/images/featured3.jpg" alt="">
@@ -334,7 +373,8 @@
                         </div>
 
                     </div>
-                    <div class="products_item p-3 filtr-item col-md-3" data-category="all,men,women,others">
+                    <div class="products_item p-3 filtr-item col-sm-6 col-md-4 col-lg-3"
+                        data-category="all,men,women,others">
                         <div class="products_item_thum">
                             <a href="#">
                                 <img src="assets/images/featured4.jpg" alt="">
@@ -359,7 +399,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="products_item p-3 filtr-item col-md-3" data-category="all,men,women">
+                    <div class="products_item p-3 filtr-item col-sm-6 col-md-4 col-lg-3" data-category="all,men,women">
                         <div class="products_item_thum">
                             <a href="#">
                                 <img src="assets/images/featured2.jpg" alt="">
@@ -384,7 +424,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="products_item p-3 filtr-item col-md-3" data-category="all,men,women">
+                    <div class="products_item p-3 filtr-item col-sm-6 col-md-4 col-lg-3" data-category="all,men,women">
                         <div class="products_item_thum">
                             <a href="#">
                                 <img src="assets/images/featured1.jpg" alt="">
@@ -410,7 +450,8 @@
                         </div>
 
                     </div>
-                    <div class="products_item p-3 filtr-item col-md-3" data-category="all,men,children">
+                    <div class="products_item p-3 filtr-item col-sm-6 col-md-4 col-lg-3"
+                        data-category="all,men,children">
                         <div class="products_item_thum">
                             <a href="#">
                                 <img src="assets/images/featured3.jpg" alt="">
@@ -435,7 +476,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="products_item p-3 filtr-item col-md-3" data-category="all,women,children">
+                    <div class="products_item p-3 filtr-item col-sm-6 col-md-4 col-lg-3"
+                        data-category="all,women,children">
                         <div class="products_item_thum">
                             <a href="#">
                                 <img src="assets/images/featured4.jpg" alt="">
@@ -461,7 +503,8 @@
                         </div>
 
                     </div>
-                    <div class="products_item p-3 filtr-item col-md-3" data-category="all,men,women,children, others">
+                    <div class="products_item p-3 filtr-item col-sm-6 col-md-4 col-lg-3"
+                        data-category="all,men,women,children, others">
                         <div class="products_item_thum">
                             <a href="#">
                                 <img src="assets/images/featured2.jpg" alt="">
@@ -494,13 +537,13 @@
     <!--Offer product section start-->
     <section id="offer">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
+            <div class="row justify-content-center">
+                <div class="col-10  col-lg-6">
                     <div class="offer_product_thum">
                         <img src="assets/images/macbook.png" alt="">
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-10  col-lg-6">
                     <div class="offer_product_info">
                         <h4>NEW PRODUCT</h4>
                         <h3>MICROSOFT SURFACE PRO</h3>
@@ -666,7 +709,7 @@
         <div class="testimonial_info">
             <div class="container">
                 <div class="row">
-                    <div class=" testimonial_item_container py-5 ">
+                    <div class=" testimonial_item_container  py-5 ">
                         <div class="col-md-6 px-3 testimonial_item d-flex flex-wrap  ">
                             <div class="testimonial_item_thum col-md-3">
                                 <img src="assets/images/testimonial1.png" alt="">
@@ -743,122 +786,142 @@
             <div class="section_ttl text-center">
                 <h2>Our Blog</h2>
             </div>
-            <div class="row blog_item_container">
-                <div class="col-md-4 blog_item ">
-                    <div class="blog_item_thum">
-                        <img class="img-responsive" src="assets/images/blog1.jpg" alt="">
-                        <div class="blog_item_overley">
-                            <h6>
-                                <i class="fas fa-calendar"></i>
-                                26 October 2017
-                            </h6>
-                            <a href="#">
-                                <i class="fas fa-link"></i>
-                            </a>
-                            <p>
-                                <span>
-                                    <i class="fas fa-user"></i>
-                                    By: Admin
-                                </span>
-                                <span>
-                                    <i class="fas fa-user"></i>
-                                    2.5k Likes
-                                </span>
-                                <span>
-                                    <i class="fas fa-comment"></i>
-                                    1.5k comments
-                                </span>
-                            </p>
+            <div class="blog_item_container ">
+                <div class="row justify-content-center">
+                    <div class="col-sm-10 py-3 col-md-4">
+                        <div class="blog_item">
+
+                            <div class="blog_item_thum">
+                                <img class="img-responsive" src="assets/images/blog1.jpg" alt="">
+                                <div class="blog_item_overley">
+                                    <h6>
+                                        <i class="fas fa-calendar"></i>
+                                        26 October 2017
+                                    </h6>
+                                    <a href="#">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                    <p>
+                                        <span>
+                                            <i class="fas fa-user"></i>
+                                            By: Admin
+                                        </span>
+                                        <span>
+                                            <i class="fas fa-user"></i>
+                                            2.5k Likes
+                                        </span>
+                                        <span>
+                                            <i class="fas fa-comment"></i>
+                                            1.5k comments
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="blog_item_info">
+                                <h6>Best E-commerce I’d shopping yet</h6>
+                                <p>Lorem Ipsum is simply dummy text of the printing andg industry. Lorem Ipsum has been
+                                    the
+                                    indusy's standard dummy text ever since the 1500s, when an unknown printer took a
+                                    galley of
+                                    type and
+                                    scrambled.</p>
+                                <a href="#">
+                                    READ MORE
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </a>
+                            </div>
+
                         </div>
                     </div>
-                    <div class="blog_item_info">
-                        <h6>Best E-commerce I’d shopping yet</h6>
-                        <p>Lorem Ipsum is simply dummy text of the printing andg industry. Lorem Ipsum has been the
-                            indusy's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                            type and
-                            scrambled.</p>
-                        <a href="#">
-                            READ MORE
-                            <i class="fas fa-long-arrow-alt-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 blog_item ">
-                    <div class="blog_item_thum">
-                        <img class="img-responsive" src="assets/images/blog2.jpg" alt="">
-                        <div class="blog_item_overley">
-                            <h6>
-                                <i class="fas fa-calendar"></i>
-                                26 October 2017
-                            </h6>
-                            <a href="#">
-                                <i class="fas fa-link"></i>
-                            </a>
-                            <p>
-                                <span>
-                                    <i class="fas fa-user"></i>
-                                    By: Admin
-                                </span>
-                                <span>
-                                    <i class="fas fa-user"></i>
-                                    2.5k Likes
-                                </span>
-                                <span>
-                                    <i class="fas fa-comment"></i>
-                                    1.5k comments
-                                </span>
-                            </p>
+                    <div class="col-sm-10 py-3 col-md-4 ">
+                        <div class="blog_item">
+
+                            <div class="blog_item_thum">
+                                <img class="img-responsive" src="assets/images/blog2.jpg" alt="">
+                                <div class="blog_item_overley">
+                                    <h6>
+                                        <i class="fas fa-calendar"></i>
+                                        26 October 2017
+                                    </h6>
+                                    <a href="#">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                    <p>
+                                        <span>
+                                            <i class="fas fa-user"></i>
+                                            By: Admin
+                                        </span>
+                                        <span>
+                                            <i class="fas fa-user"></i>
+                                            2.5k Likes
+                                        </span>
+                                        <span>
+                                            <i class="fas fa-comment"></i>
+                                            1.5k comments
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="blog_item_info">
+                                <h6>I’m satisfy with their services</h6>
+                                <p>Lorem Ipsum is simply dummy text of the printing andg industry. Lorem Ipsum has been
+                                    the
+                                    indusy's
+                                    standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                    type and
+                                    scrambled.</p>
+                                <a href="#">
+                                    READ MORE
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </a>
+                            </div>
+
                         </div>
                     </div>
-                    <div class="blog_item_info">
-                        <h6>I’m satisfy with their services</h6>
-                        <p>Lorem Ipsum is simply dummy text of the printing andg industry. Lorem Ipsum has been the
-                            indusy's
-                            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                            scrambled.</p>
-                        <a href="#">
-                            READ MORE
-                            <i class="fas fa-long-arrow-alt-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 blog_item ">
-                    <div class="blog_item_thum">
-                        <img class="img-responsive" src="assets/images/blog3.jpg" alt="">
-                        <div class="blog_item_overley">
-                            <h6>
-                                <i class="fas fa-calendar"></i>
-                                26 October 2017
-                            </h6>
-                            <a href="#">
-                                <i class="fas fa-link"></i>
-                            </a>
-                            <p>
-                                <span>
-                                    <i class="fas fa-user"></i>
-                                    By: Admin
-                                </span>
-                                <span>
-                                    <i class="fas fa-user"></i>
-                                    2.5k Likes
-                                </span>
-                                <span>
-                                    <i class="fas fa-comment"></i>
-                                    1.5k comments
-                                </span>
-                            </p>
+                    <div class="col-sm-10 py-3 col-md-4 ">
+                        <div class="blog_item">
+
+                            <div class="blog_item_thum">
+                                <img class="img-responsive" src="assets/images/blog3.jpg" alt="">
+                                <div class="blog_item_overley">
+                                    <h6>
+                                        <i class="fas fa-calendar"></i>
+                                        26 October 2017
+                                    </h6>
+                                    <a href="#">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                    <p>
+                                        <span>
+                                            <i class="fas fa-user"></i>
+                                            By: Admin
+                                        </span>
+                                        <span>
+                                            <i class="fas fa-user"></i>
+                                            2.5k Likes
+                                        </span>
+                                        <span>
+                                            <i class="fas fa-comment"></i>
+                                            1.5k comments
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="blog_item_info">
+                                <h6>I’ll never forget their hospitality</h6>
+                                <p>Lorem Ipsum is simply dummy text of the printing andg industry. Lorem Ipsum has been
+                                    the
+                                    indusy's
+                                    standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                    type and
+                                    scrambled.</p>
+                                <a href="#">
+                                    READ MORE
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </a>
+                            </div>
+
                         </div>
-                    </div>
-                    <div class="blog_item_info">
-                        <h6>I’ll never forget their hospitality</h6>
-                        <p>Lorem Ipsum is simply dummy text of the printing andg industry. Lorem Ipsum has been the
-                            indusy's
-                            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                            scrambled.</p>
-                        <a href="#">
-                            READ MORE
-                            <i class="fas fa-long-arrow-alt-right"></i>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -869,7 +932,7 @@
     <section id="footer_main">
         <div class="container">
             <div class="row ">
-                <div class="col-md-3 ">
+                <div class="col-sm-6 col-md-3 ">
                     <div class="footer_logo">
                         <a href="#">
                             <img class="img-responsive" src="assets/images/footer-logo.png" alt="">
@@ -879,7 +942,7 @@
                         <p>magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                     </div>
                 </div>
-                <div class="col-md-3 ">
+                <div class="col-sm-6 col-md-3 ">
                     <div class="contact">
 
                         <h5>CONTACT US</h5>
@@ -919,7 +982,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-sm-4 col-md-2">
                     <div class="account">
                         <h5>MY ACCOUNT</h5>
                         <a href="#">My Account</a>
@@ -929,7 +992,7 @@
                         <a href="#">Checkout</a>
                     </div>
                 </div>
-                <div class="col-md-4 ">
+                <div class="col-sm-8 col-md-4 ">
                     <div class="newsletter">
 
                         <h5>SIGN UP FOR NEWSLETTER</h5>
@@ -960,7 +1023,7 @@
     <div id="footer_btm">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6">
+                <div class="col-sm-6 col-md-6">
                     <div class="copywright">
                         <p>
                             Copyright © 2017. All right reserved by
@@ -968,7 +1031,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6 col-md-6">
                     <div class="payment_card text-end">
                         <img src="assets/images/card1.png" alt="">
                         <img src="assets/images/card2.png" alt="">
