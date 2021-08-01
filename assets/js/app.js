@@ -47,6 +47,15 @@ $(function () {
         slidesToShow: 2,
         slidesToScroll: 1,
       }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerPadding:'300px',
+      }
     }]
   })
   //Testimonial slider activision//
